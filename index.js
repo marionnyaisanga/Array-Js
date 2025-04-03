@@ -32,11 +32,11 @@ let uniqueArr = [];
 let duplicatesArr = [];
 
 arr.forEach(item => {
-    if (uniqueArr.includes(item)) {
+  
         if (!duplicatesArr.includes(item)) {
             duplicatesArr.push(item);
         }
-    } else {
+     else {
         uniqueArr.push(item);
     }
 });
